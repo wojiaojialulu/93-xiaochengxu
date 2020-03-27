@@ -1,13 +1,39 @@
 {
   "pages": [
+    "pages/demo/index",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/my/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#666",
+    "navigationBarTitleText": "93期小程序学习",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color":"#D78B09",
+    "selectedColor":"#fff", 
+    "backgroundColor0":"#FECA49",
+    "list": [
+      {
+        "text": "首页",
+        "iconPath": "icons/home-default.png",
+        "selectedIconPath": "icons/home-active.png",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "卡券",
+        "iconPath": "icons/ticket-default.png",
+        "selectedIconPath": "icons/ticket-active.png",
+        "pagePath": "pages/demo/index"
+      },
+      {
+        "text": "我的",
+        "iconPath": "icons/face-default.png",
+        "selectedIconPath": "icons/face-active.png",
+        "pagePath": "pages/my/index"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
